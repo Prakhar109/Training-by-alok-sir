@@ -24,6 +24,9 @@ public class MultipleTry {
             {
                 System.out.println("Parent Exception occurs");
             }
+            finally {
+                System.out.println("Inside the finally block");
+            }
             System.out.println("rest of the code");
         }
     }
