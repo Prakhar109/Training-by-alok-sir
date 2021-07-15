@@ -21,15 +21,43 @@ package com.example.training.alok
         10 -> println("Tenth")
         else -> println("invalid number")
     }
-    print("Number is $GivenNumber")
+    print("Number is ${GivenNumber}")
 
-} */
+}*/
 
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     for (i in 1..5) {
         if (i == 3) {
-            break
+            continue
         }
         println(i)
     }
+}*/
+
+fun main(args: Array<String>){
+        val arrayname = arrayOf(1, 2, 3, 4, "Prakhar")
+        for (i in 1..arrayname.size-1)
+        {
+            print(" "+arrayname[i])
+        }
+        println()
+    for(i in 0..5)
+    {
+        println(i)
+    }
+    print("nothing print")
+    for(i in 5..1)
+    {
+        println(i)
+    }
+    println("For print element in reverse order")
+    for(i in 5 downTo 1)
+    {
+        println(i)
+    }
+    for(i in 5 downTo 1 step 3)
+    {
+        println(i)
+    }
 }
+
