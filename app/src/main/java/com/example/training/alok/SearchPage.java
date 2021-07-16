@@ -7,6 +7,7 @@ public class SearchPage {
     public static int search(int a) {
         return (a / 10) + 1;
     }
+
     public static int addElement( List<Integer> l1 )
     {
         int sum=0;
